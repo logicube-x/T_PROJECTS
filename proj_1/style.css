@@ -11,5 +11,15 @@ html, body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(0, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elem{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 4px solid black;
 }
