@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(101, 197, 228);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+
+}
+.elem{
+    
+    background-color: crimson;
+    border: 3px solid ;
+}

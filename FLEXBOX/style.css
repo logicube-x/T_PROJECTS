@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: darksalmon;
+    display:flex;
+    
+}
+#b1{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+
+}
+#b2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(242, 255, 54);
+}
+#b3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(26, 255, 152);
+}
